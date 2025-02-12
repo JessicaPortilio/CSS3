@@ -1,0 +1,78 @@
+<!-- Declara que este documento é um arquivo HTML5 -->
+<!DOCTYPE html>
+<html lang="en"> <!-- Início do documento HTML e definição do idioma como inglês -->
+<head> <!-- Cabeçalho da página, onde ficam configurações e estilos -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 para suportar acentos e caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a largura da página para diferentes tamanhos de tela -->
+    <title>Tags Div e Span</title> <!-- Define o título que aparecerá na aba do navegador -->
+    
+    <!-- Início do bloco de estilos CSS -->
+    <style> 
+        /* Define o estilo da div com id "topo", colocando um fundo rosa claro */
+        #topo {
+            background: rgb(209, 148, 201);
+        }
+
+        /* Define o estilo da div com id "conteudo", colocando um fundo vermelho claro */
+        #conteudo {
+            background: rgb(209, 132, 132);
+        }
+
+        /* Define o estilo da div com id "rodape", colocando um fundo cinza rosado */
+        #rodape {
+            background: rgb(182, 145, 145);
+        }
+
+        /* Define o estilo da classe "produto", colocando um fundo rosa bem claro e margem entre os elementos */
+        .produto {
+            background: rgb(248, 214, 214);
+            margin: 10px; /* Adiciona um espaço de 10px ao redor dos elementos com essa classe */
+        }
+
+        /* Define a cor azul para qualquer elemento que tenha a classe "azul" */
+        .azul {
+            color: blue;
+        }
+    </style> <!-- Fim do bloco de estilos -->
+</head>
+<body> <!-- Início do corpo da página, onde o conteúdo visível será colocado -->
+    <div id="topo"> <!-- Divisão que representa o topo da página -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="" width="100">
+        <!-- Adiciona uma imagem do Instagram com largura de 100px -->
+        <ul> <!-- Lista não ordenada (com marcadores) -->
+            <li>Home</li> <!-- Primeiro item da lista -->
+            <li>Produtos</li> <!-- Segundo item da lista -->
+            <li>Contato</li> <!-- Terceiro item da lista -->
+        </ul>
+    </div> <!-- Fim da div do topo -->
+
+    <div id="conteudo"> <!-- Divisão que representa o conteúdo principal -->
+        <div class="produto"> <!-- Cada produto tem a classe "produto" que estiliza o fundo e margens -->
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
+    </div> <!-- Fim da div do conteúdo -->
+
+    <div id="rodape"> <!-- Divisão que representa o rodapé da página -->
+        Todos os direitos reservados
+    </div> <!-- Fim da div do rodapé -->
+
+    <span>
+        Nome
+    </span>
+    <span>
+        Sobrenome
+    </span>
+    <!-- A tag <span> é usada para agrupar pequenos trechos de texto sem quebras de linha -->
+
+    <div>
+        Usando <span class="azul">span</span> dentro de uma div
+        <!-- Aqui, a palavra "span" será azul porque tem a classe "azul" aplicada -->
+    </div>
+</body>
+</html> <!-- Fim do documento HTML -->
