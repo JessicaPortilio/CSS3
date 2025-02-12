@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<!-- Declaração do tipo de documento. Define que este código segue o padrão HTML5. -->
+
+<html lang="en">
+<!-- Abertura da tag <html> e definição do idioma como inglês (en). Isso ajuda mecanismos de busca e leitores de tela. -->
+
+<head>
+    <!-- Início da seção <head>, onde são definidas configurações da página e carregados estilos e metadados. -->
+
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, permitindo o uso de acentos e caracteres especiais. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faz com que a página se ajuste automaticamente para diferentes tamanhos de tela, como celulares e computadores. -->
+
+    <title>Tamanhos de Textos</title>
+    <!-- Define o título da página, que aparece na aba do navegador. -->
+
+    <style>
+        /* Início da seção de estilos CSS para definir a aparência dos elementos da página. */
+
+        div {
+            /* Define o tamanho da fonte dentro de qualquer <div>. */
+            font-size: 60px;
+            /* Isso significa que qualquer texto dentro de uma <div> será exibido com um tamanho de 60 pixels. */
+        }
+
+        /* 
+            px -> tamanho fixo
+            % -> tamanho relativo
+            em -> tamanho relativo ao container pai
+        */
+
+        .texto {
+            /* Aplica estilos para os elementos que pertencem à classe "texto". */
+
+            /* 
+            Define o tamanho da fonte usando "em", que é um tamanho relativo ao elemento pai.
+            - 1em significa que o texto terá o mesmo tamanho da fonte do elemento pai.
+            - Se o elemento pai tiver "font-size: 60px", então o texto dentro de .texto também terá 60px.
+            */
+            font-size: 1em;
+        }
+
+        .texto2 {
+            /* Aplica estilos para os elementos que pertencem à classe "texto2". */
+
+            /* Define um tamanho fixo para a fonte de 15 pixels. */
+            font-size: 15px;
+        }
+    </style>
+    <!-- Fim da seção de estilos CSS. -->
+</head>
+
+<body>
+    <!-- Início do corpo da página, onde o conteúdo visível será exibido. -->
+
+    <div>
+        <!-- Uma <div> (bloco) que contém os textos. Como definido no CSS, qualquer texto aqui dentro terá tamanho 60px. -->
+
+        <p class="texto">Conteúdo</p>
+        <!-- Um parágrafo (<p>) com a classe "texto".
+        - Como essa classe usa "1em", o tamanho da fonte será baseado na <div>, que tem 60px.
+        - Portanto, esse texto será exibido com 60px. -->
+
+        <p class="texto2">Conteúdo 2</p>
+        <!-- Outro parágrafo (<p>) com a classe "texto2".
+        - Como "texto2" tem um tamanho fixo de 15px, este texto será exibido com 15px, independente do tamanho da <div>. -->
+    </div>
+
+</body>
+<!-- Fim do corpo da página. -->
+
+</html>
+<!-- Fim do documento HTML. -->
+
+
