@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<!-- Declaração do tipo de documento. Define que este código segue o padrão HTML5. -->
+
+<html lang="en">
+<!-- Abertura da tag <html> e definição do idioma como inglês (en). Isso ajuda mecanismos de busca e leitores de tela. -->
+
+<head>
+    <!-- Início da seção <head>, onde são definidas configurações da página e carregados estilos e metadados. -->
+
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, permitindo o uso de acentos e caracteres especiais. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faz com que a página se ajuste automaticamente para diferentes tamanhos de tela, como celulares e computadores. -->
+
+    <title>Estilos de Textos</title>
+    <!-- Define o título da página, que aparece na aba do navegador. -->
+
+    <style>
+        /* Início da seção de estilos CSS para definir a aparência dos elementos da página. */
+
+        body {
+            /* Aplica estilos para todo o corpo da página (<body>). */
+
+            font-size: 40px;
+            /* Define o tamanho padrão da fonte como 40 pixels para todo o texto da página. */
+
+            font-family: 'Times New Roman', Times, serif;
+            /* Define a fonte do texto como "Times New Roman" ou, caso essa fonte não esteja disponível, "Times" ou uma fonte genérica serifada. */
+        }
+
+        .negrito {
+            /* Aplica estilos para os elementos com a classe "negrito". */
+
+            /* 
+            Define a espessura da fonte com "font-weight".
+            - "normal" (deixa o texto normal).
+            - "bold" (negrito) pode ser usado ou um valor numérico de 100 a 900.
+            - Aqui, usamos 900, que é um negrito mais forte. 
+            */
+            font-weight: 900;
+        }
+
+        .italico {
+            /* Aplica estilos para os elementos com a classe "italico". */
+
+            font-style: italic;
+            /* Define o estilo da fonte como itálico. */
+        }
+
+        .formatacao {
+            /* Aplica estilos para os elementos com a classe "formatacao". */
+
+            /* 
+            Define uma decoração para o texto com "text-decoration".
+            - underline: sublinha o texto.
+            - overline: coloca uma linha acima do texto.
+            - line-through: risca o texto.
+            */
+            text-decoration: line-through;
+            /* Neste caso, usamos "line-through" para que o texto fique riscado. */
+        }
+
+        .texto {
+            /* Aplica estilos para os elementos com a classe "texto". */
+
+            font: bold 40px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            /* Define várias propriedades da fonte em uma única linha:
+            - "bold": deixa o texto em negrito.
+            - "40px": define o tamanho da fonte.
+            - As fontes listadas são alternativas caso a principal não esteja disponível.
+            */
+        }
+    </style>
+    <!-- Fim da seção de estilos CSS. -->
+</head>
+
+<body>
+    <!-- Início do corpo da página, onde o conteúdo visível será exibido. -->
+
+    <p class="negrito">Texto negrito</p>
+    <!-- Um parágrafo (<p>) com a classe "negrito".
+        - O texto será exibido em negrito com a espessura máxima (900). -->
+
+    <p class="italico">Texto itálico</p>
+    <!-- Um parágrafo (<p>) com a classe "italico".
+        - O texto será exibido em itálico. -->
+
+    <p class="formatacao">Formatação de texto</p>
+    <!-- Um parágrafo (<p>) com a classe "formatacao".
+        - O texto será exibido riscado devido à propriedade "text-decoration: line-through". -->
+
+    <p class="texto">Texto</p>
+    <!-- Um parágrafo (<p>) com a classe "texto".
+        - O texto será exibido com:
+        - Negrito (bold).
+        - Tamanho de 40px.
+        - Fonte "Lucida Sans" ou as alternativas listadas no CSS. -->
+
+    <p>Padrão</p>
+    <!-- Um parágrafo (<p>) sem nenhuma classe.
+        - Será exibido com o estilo padrão definido no <body>:
+        - Fonte "Times New Roman" (ou uma alternativa).
+        - Tamanho de 40px. -->
+
+</body>
+<!-- Fim do corpo da página. -->
+
+</html>
+<!-- Fim do documento HTML. -->
