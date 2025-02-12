@@ -1,37 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bordas</title>
-    <style>
-        #conteudo {
-            /* Os seguintes valores são permitidos:
+<!DOCTYPE html> 
+<!-- Declaração do tipo de documento (HTML5) para garantir que o navegador interprete corretamente o código HTML. -->
 
-            dotted- Define uma borda pontilhada
-            dashed- Define uma borda tracejada
-            solid- Define uma borda sólida
-            double- Define uma borda dupla
-            groove- Define uma borda ranhurada 3D. O efeito depende do valor border-color
-            ridge- Define uma borda 3D com sulcos. O efeito depende do valor border-color
-            inset- Define uma borda de inserção 3D. O efeito depende do valor border-color
-            outset- Define uma borda de início 3D. O efeito depende do valor border-color
-            none- Não define nenhuma fronteira
-            hidden- Define uma borda oculta 
+<html lang="en">
+<!-- Abertura da tag <html> e definição do idioma da página como inglês (en). -->
+
+<head>
+    <!-- Início da seção <head>, onde são definidas configurações e metadados da página. -->
+
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, permitindo o uso de caracteres especiais como acentos e símbolos. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configuração para tornar a página responsiva, ajustando-a para diferentes tamanhos de tela. -->
+
+    <title>Bordas</title>
+    <!-- Define o título da página, que aparece na aba do navegador. -->
+
+    <style>
+        /* Início da seção de estilos CSS internos, usados para definir a aparência dos elementos da página. */
+
+        #conteudo {
+            /* Aplica estilos ao elemento que tem o ID "conteudo". */
+
+            /* 
+            A propriedade "border" define a borda ao redor do elemento. 
+            O valor abaixo define uma borda sólida (solid), vermelha (red) e com 5 pixels de espessura. 
             */
             border: 5px solid red;
 
+            /*
+            Explicação sobre os diferentes tipos de bordas possíveis:
+
+            - dotted: Cria uma borda pontilhada.
+            - dashed: Cria uma borda tracejada.
+            - solid: Cria uma borda contínua.
+            - double: Cria uma borda dupla.
+            - groove: Dá um efeito 3D de ranhura na borda (depende da cor).
+            - ridge: Dá um efeito 3D elevado na borda (depende da cor).
+            - inset: Faz a borda parecer inserida dentro do elemento.
+            - outset: Faz a borda parecer saindo para fora do elemento.
+            - none: Remove qualquer borda.
+            - hidden: Oculta a borda sem removê-la completamente.
+            */
+
+            /* Exemplos de outras propriedades de borda comentadas (não ativas no código): */
+
+            /* Define diferentes cores para cada lado da borda (vermelho, verde, amarelo, azul). */
             /* border-color: red green yellow blue; */
+
+            /* Define diferentes larguras para cada lado da borda (superior: 5px, direita: 10px, inferior: 15px, esquerda: 20px). */
             /* border-width: 5px 10px 15px 20px; */
-            /* border-style: solid  dotted dashed outset; */
+
+            /* Define diferentes estilos de borda para cada lado (sólida, pontilhada, tracejada e início 3D). */
+            /* border-style: solid dotted dashed outset; */
         }
     </style>
+    <!-- Fim da seção de estilos CSS. -->
 </head>
+
 <body>
+    <!-- Início do corpo da página, onde o conteúdo visível será exibido. -->
+
     <div id="conteudo">
+        <!-- Um elemento <div> com o ID "conteudo", que recebe os estilos definidos acima. -->
+        
         Bordas <br>
+        <!-- Texto "Bordas" seguido da tag <br>, que quebra a linha para que o próximo conteúdo apareça abaixo. -->
+
         Bordas <br>
+        <!-- Outra linha de texto "Bordas" com uma quebra de linha. -->
+
         Bordas <br>
+        <!-- Última linha de texto "Bordas" também seguida de uma quebra de linha. -->
     </div>
+
 </body>
+<!-- Fim do corpo da página. -->
+
 </html>
+<!-- Fim do documento HTML. -->
