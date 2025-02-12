@@ -1,0 +1,112 @@
+<!-- Declaração do tipo de documento, informando ao navegador que este é um arquivo HTML5 -->
+<!DOCTYPE html>
+<html lang="en"> <!-- Início do documento HTML e definição do idioma como inglês -->
+
+<head> <!-- Início do cabeçalho da página -->
+    
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8, permitindo acentos e caracteres especiais -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a largura da página para se ajustar ao tamanho da tela do dispositivo, essencial para sites responsivos -->
+    
+    <title>Classes e IDs</title> <!-- Define o título da aba do navegador -->
+    <!-- Início do bloco de estilos CSS internos -->
+    <style> 
+        
+        /* Define que todos os parágrafos (<p>) terão o texto na cor vermelha */
+        p {
+            color: red;
+        }
+
+        /* Define que todos os títulos <h1> terão o texto na cor azul */
+        h1 {
+            color: blue;
+        }
+
+        /* Define que qualquer elemento que tenha a classe "azul" terá o texto na cor azul */
+        .azul {
+            color: blue;
+        }
+
+        /* Define que o elemento com o ID "cabecalho" terá um fundo cinza */
+        #cabecalho {
+            background: rgb(196, 195, 195);
+        }
+        
+    </style> <!-- Fim do bloco de estilos CSS internos -->
+
+</head> <!-- Fim do cabeçalho -->
+
+<body> <!-- Início do corpo da página, onde todo o conteúdo visível será exibido -->
+
+    <div> <!-- Criação de uma divisão genérica que agrupa elementos -->
+        
+        <div id="cabecalho"> <!-- Criação de um cabeçalho com fundo cinza, devido ao estilo definido para o ID "cabecalho" -->
+            
+            <img src="" alt=""> 
+            <!-- Aqui poderia ser inserida uma imagem. O atributo "src" deveria conter o caminho da imagem, 
+            mas está vazio no momento. O atributo "alt" serve como descrição alternativa da imagem. -->
+            
+            <ul> <!-- Lista não ordenada (com marcadores como pontos) -->
+                <li>Home</li> <!-- Primeiro item da lista -->
+                <li>Quem Somos</li> <!-- Segundo item da lista -->
+                <li>Contato</li> <!-- Terceiro item da lista -->
+            </ul>
+
+        </div> <!-- Fim da divisão do cabeçalho -->
+
+    </div> <!-- Fim da divisão geral -->
+
+    <!-- Título principal da página, será exibido na cor azul conforme o estilo definido -->
+    <h1>Estilo CSS (cascading style sheets)</h1>
+
+    <!-- Parágrafo de texto com a classe "azul", então será azul em vez de vermelho -->
+    <p class="azul">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare, leo sed hendrerit lacinia, ex erat
+        fermentum lectus, eget lobortis mauris nunc id justo. Sed sed libero mauris. Praesent maximus risus vel quam
+        commodo, finibus ullamcorper ligula bibendum. Vivamus eget condimentum est. Maecenas pretium sem non neque
+        pulvinar, quis sodales mauris ultrices.
+    </p>
+
+    <!-- Parágrafo normal, sem classe especial, então seguirá a regra geral e será vermelho -->
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare, leo sed hendrerit lacinia, ex erat
+        fermentum lectus, eget lobortis mauris nunc id justo. Sed sed libero mauris. Praesent maximus risus vel quam
+        commodo, finibus ullamcorper ligula bibendum. Vivamus eget condimentum est. Maecenas pretium sem non neque
+        pulvinar, quis sodales mauris ultrices.
+    </p>
+
+    <!-- Segundo título da página, será azul conforme o estilo definido -->
+    <h1>Formatações</h1>
+
+    <!-- Outro parágrafo normal, será vermelho -->
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare, leo sed hendrerit lacinia, ex erat
+        fermentum lectus, eget lobortis mauris nunc id justo. Sed sed libero mauris. Praesent maximus risus vel quam
+        commodo, finibus ullamcorper ligula bibendum. Vivamus eget condimentum est. Maecenas pretium sem non neque
+        pulvinar, quis sodales mauris ultrices.
+    </p>
+
+    <!-- Mais um parágrafo normal, será vermelho -->
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare, leo sed hendrerit lacinia, ex erat
+        fermentum lectus, eget lobortis mauris nunc id justo. Sed sed libero mauris. Praesent maximus risus vel quam
+        commodo, finibus ullamcorper ligula bibendum. Vivamus eget condimentum est. Maecenas pretium sem non neque
+        pulvinar, quis sodales mauris ultrices.
+    </p>
+
+</body> <!-- Fim do corpo da página -->
+
+</html> <!-- Fim do documento HTML -->
+
+
+<!-- 
+    Classes (.azul):
+    São usadas para estilizar múltiplos elementos de forma personalizada.
+    IDs (#cabecalho):
+    Usados para estilizar um único elemento na página.
+    Hereditariedade e Especificidade no CSS:
+    O <p> com a classe .azul não segue a regra geral do p { color: red; }, 
+    pois classes têm maior prioridade.
+    O ID #cabecalho tem maior especificidade e se aplica diretamente ao <div> correspondente.
+-->
