@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- Declaração do tipo de documento. Define que este código segue o padrão HTML5. -->
+
+<html lang="en">
+<!-- Início do documento HTML e definição do idioma como inglês. Isso ajuda mecanismos de busca e leitores de tela. -->
+
+<head>
+    <!-- Início da seção <head>, onde são definidas configurações da página, metadados e estilos. -->
+
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, permitindo o uso de caracteres especiais e acentos. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configuração para que a página se ajuste automaticamente a diferentes tamanhos de tela, como celulares e computadores. -->
+
+    <title>Cor e imagem de fundo</title>
+    <!-- Define o título da página, que aparece na aba do navegador. -->
+
+    <style>
+        /* Início da seção de estilos CSS para definir a aparência da página. */
+
+        body {
+            /* Aplica estilos para todo o corpo da página (<body>). */
+
+            /* Define uma cor de fundo para a página. Atualmente, essa linha está comentada e não tem efeito. */
+            /* background-color: rgb(190, 187, 187); */
+
+            /* Define uma imagem de fundo para a página. Atualmente, essa linha está comentada e não tem efeito. */
+            /* background-image: url('./imagens/fe.jpg'); */
+
+            /* Define se a imagem de fundo será repetida. 
+            - "no-repeat" significa que a imagem aparecerá apenas uma vez.
+            - "repeat" faz a imagem se repetir em toda a tela.
+            - "repeat-x" repete apenas na horizontal.
+            - "repeat-y" repete apenas na vertical.
+               Esta linha está comentada e não tem efeito. */
+            /* background-repeat: no-repeat; */
+
+            /* Define o comportamento do fundo ao rolar a página.
+            - "fixed" mantém o fundo fixo enquanto o conteúdo se move.
+            - "scroll" faz o fundo rolar junto com o conteúdo.
+               Esta linha está comentada e não tem efeito. */
+            /* background-attachment: fixed; */
+
+            /* Define a posição da imagem de fundo.
+            - "left center" alinha a imagem à esquerda e no centro verticalmente.
+            - "right center" alinha a imagem à direita e no centro verticalmente.
+            - "center center" alinha a imagem no meio da tela.
+            - "center top" alinha a imagem no centro e no topo.
+            - "center bottom" alinha a  imagem no centro e em baixo
+               Esta linha está comentada e não tem efeito. */
+            /* background-position: center center; */
+        }
+
+        .fundo {
+            /* Aplica estilos para os elementos com a classe "fundo". */
+
+            background-color: rebeccapurple;
+            /* Define a cor de fundo como roxo escuro (Rebecca Purple). */
+
+            color: white;
+            /* Define a cor do texto como branca para melhor contraste. */
+        }
+
+        .outrofundo {
+            /* Aplica estilos para os elementos com a classe "outrofundo". */
+
+            background: rgb(246, 226, 248) 
+            url('./imagens/amor.png') no-repeat fixed center center;
+            /* Define o fundo como:
+            - Cor de fundo rosa claro (rgb(246, 226, 248)).
+            - Imagem de fundo "amor.png".
+            - "no-repeat" para que a imagem não se repita.
+            - "fixed" para que o fundo fique fixo ao rolar a página.
+               - "center center" para alinhar a imagem no centro da tela. */
+        }
+    </style>
+    <!-- Fim da seção de estilos CSS. -->
+</head>
+
+<body class="outrofundo">
+    <!-- Início do corpo da página, onde o conteúdo visível será exibido. 
+        O atributo "class='outrofundo'" aplica os estilos da classe "outrofundo" ao fundo da página. -->
+
+    <h1 class="fundo">Conteúdo do título 1</h1>
+    <!-- Título de nível 1 (<h1>) com a classe "fundo".
+        - Terá fundo roxo e texto branco, conforme definido no CSS. -->
+
+    <p>
+        <!-- Parágrafo de texto comum. O texto dentro será exibido no estilo padrão da página. -->
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue quam, ultricies in neque non, vestibulum
+        facilisis erat. Aenean luctus ornare semper. Nunc ullamcorper diam vitae velit aliquet, quis fringilla ex
+        maximus. Nunc urna justo, ullamcorper et vehicula ornare, aliquam in nunc. Sed vestibulum bibendum placerat.
+        Nullam et diam urna. Aenean odio quam, aliquet id volutpat quis, eleifend sit amet lorem. Sed vel ipsum purus.
+        <!-- Texto fictício "Lorem ipsum" usado como exemplo. -->
+    </p>
+
+    <!-- Quebras de linha (br) para criar espaço vertical na página. 
+        Isso empurra o conteúdo para baixo, simulando uma página longa. -->
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <p>
+        <!-- Outro parágrafo de texto comum. -->
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue quam, ultricies in neque non, vestibulum
+        facilisis erat. Aenean luctus ornare semper. Nunc ullamcorper diam vitae velit aliquet, quis fringilla ex
+        maximus. Nunc urna justo, ullamcorper et vehicula ornare, aliquam in nunc. Sed vestibulum bibendum placerat.
+        Nullam et diam urna. Aenean odio quam, aliquet id volutpat quis, eleifend sit amet lorem. Sed vel ipsum purus.
+    </p>
+
+    <p>
+        <!-- Outro parágrafo de texto comum. -->
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent augue quam, ultricies in neque non, vestibulum
+        facilisis erat. Aenean luctus ornare semper. Nunc ullamcorper diam vitae velit aliquet, quis fringilla ex
+        maximus. Nunc urna justo, ullamcorper et vehicula ornare, aliquam in nunc. Sed vestibulum bibendum placerat.
+        Nullam et diam urna. Aenean odio quam, aliquet id volutpat quis, eleifend sit amet lorem. Sed vel ipsum purus.
+    </p>
+
+</body>
+<!-- Fim do corpo da página. -->
+
+</html>
+<!-- Fim do documento HTML. -->
