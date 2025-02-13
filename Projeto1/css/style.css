@@ -1,0 +1,61 @@
+/* Define o estilo geral do corpo (body) da página */
+body {
+    /* Define a cor de fundo como um tom de bege claro e aplica uma imagem de fundo */
+    background: #d2d2c1 url('../imagens/fundo.png');  
+    /* Define a fonte padrão do texto para Arial, Helvetica ou qualquer fonte sans-serif disponível */
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+/* Define o estilo da área principal da página */
+#principal {
+    /* Define a largura da área principal como 900 pixels */
+    width: 900px;
+}
+
+/* Define o estilo do menu da página */
+#menu {
+    /* Define o fundo do menu com um tom de cinza/bege */
+    background: #c5c5b2;
+    /* Adiciona um espaço interno de 18 pixels ao redor do conteúdo do menu */
+    padding: 18px;
+}
+
+/* Define o estilo do conteúdo principal da página */
+#conteudo {
+    /* Define o fundo do conteúdo com um tom de bege mais claro */
+    background: #e8e8d9;
+    /* Adiciona um espaço interno de 10 pixels ao redor do conteúdo */
+    padding: 10px;
+}
+
+/* Classe para centralizar elementos de texto */
+.centralizar {
+    /* Faz com que o texto fique centralizado dentro do elemento */
+    text-align: center;
+}
+
+/* Define o estilo das imagens que pertencem à classe "img-campanha" */
+.img-campanha {
+    /* Adiciona uma borda sólida de 10 pixels com um tom de bege acinzentado */
+    border: 10px solid #c3c3ae;
+}
+
+/* Define o estilo dos links (elementos <a>) da página */
+a {
+    /* Define a cor do texto dos links como um tom de azul acinzentado */
+    color: #4b566a;
+    /* Remove o sublinhado padrão dos links */
+    text-decoration: none;
+    /* Deixa o texto dos links em negrito */
+    font-weight: bold;
+    /* Adiciona um espaço interno de 5 pixels ao redor do link */
+    padding: 5px;
+}
+
+/* Define o estilo dos títulos de nível 1 (elementos <h1>) */
+h1 {
+    /* Define a cor do texto como um tom de cinza esverdeado */
+    color: #828271;
+    /* Define o tamanho da fonte como 1.2 vezes o tamanho padrão do navegador */
+    font-size: 1.2em;
+}
