@@ -1,0 +1,32 @@
+/* Classe .conteudo define o estilo das divs com essa classe */
+.conteudo {
+    border: 1px solid red; /* Cria uma borda vermelha de 1 pixel ao redor do elemento */
+    /* padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+
+    /* padding: 20px 15px 10px 5px; */
+
+    /* Define um preenchimento interno (espaço entre o conteúdo e a borda) de 20 pixels em todos os lados */
+    padding: 20px;
+
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px; */
+
+    /* Define uma margem externa (espaço entre o elemento e outros elementos) de 10 pixels em todos os lados */
+    margin: 10px;
+
+    /* Define a largura fixa do elemento como 150 pixels */
+    width: 150px;
+}
+
+/* Classe .conteudo2 com estilos semelhantes, mas com uma margem menor */
+.conteudo2 {
+    border: 1px solid red; /* Borda vermelha de 1 pixel */
+    padding: 20px; /* Preenchimento interno de 20 pixels */
+    margin: 5px; /* Margem externa de 5 pixels */
+    width: 150px; /* Largura fixa de 150 pixels */
+}

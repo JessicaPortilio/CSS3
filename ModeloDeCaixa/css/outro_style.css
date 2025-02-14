@@ -1,0 +1,15 @@
+#noticia {
+    background: #f9f9f9;
+    /* Define o fundo do bloco com um tom de cinza claro (#f9f9f9) */
+
+    padding: 10px;
+    /* Adiciona um espaço interno (espaço entre o conteúdo e a borda) de 10 pixels em todos os lados */
+
+    border: 1px solid red;
+    /* Adiciona uma borda de 1 pixel de espessura, sólida e na cor vermelha ao redor do bloco */
+}
+
+h2 {
+    margin: 0px;
+    /* Remove qualquer espaço externo ao redor do título h2 */
+}
