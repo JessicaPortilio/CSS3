@@ -1,0 +1,72 @@
+.conteudo {
+    border: 1px solid red;
+    /* Adiciona uma borda de 1 pixel de espessura, sólida e vermelha ao redor do bloco */
+
+    background: blue;
+    /* Define a cor de fundo do bloco como azul */
+
+    width: 200px;
+    /* Define a largura do bloco como 200 pixels */
+
+    height: 200px;
+    /* Define a altura do bloco como 200 pixels */
+
+    margin: 10px;
+    /* Adiciona um espaçamento externo de 10 pixels ao redor do bloco */
+
+    float: left;
+    /* Faz com que o bloco flutue à esquerda, permitindo que os próximos elementos fiquem ao lado */
+}
+
+/* .conteudo1 {
+    Adiciona uma borda azul de 1 pixel de espessura
+    border: 1px solid blue;
+    Define o fundo do bloco como vermelho
+    background: red;
+    Define a largura do bloco como 200 pixels
+    width: 200px;
+    Define a altura do bloco como 200 pixels
+    height: 200px;
+    Adiciona um espaçamento externo de 10 pixels ao redor do bloco
+    margin: 10px;
+    Define se o bloco flutuará à esquerda (left), à direita (right) ou não flutuará (none)
+    Define que este bloco flutua à esquerda
+    float: left;
+} */
+
+.conteudo-zero {
+    border: 1px solid blue;
+    /* Adiciona uma borda azul de 1 pixel de espessura ao redor do bloco */
+
+    background: red;
+    /* Define a cor de fundo do bloco como vermelho */
+
+    width: 200px;
+    /* Define a largura do bloco como 200 pixels */
+
+    height: 200px;
+    /* Define a altura do bloco como 200 pixels */
+
+    /* float temos left, right ou none */
+    /* Esse trecho indica que o float pode ser configurado para a esquerda (left), direita (right) ou desativado (none) */
+
+    margin: 10px;
+    /* Adiciona um espaçamento externo de 10 pixels ao redor do bloco */
+} 
+
+
+.clear {
+    /* clear: temos both (para ambos, left (esquerda), right (direita) */
+    /* O clear é usado para evitar que elementos flutuantes afetem outros elementos na página */
+    /* Define que esse elemento deve limpar ambos os lados (left e right), 
+    forçando os próximos elementos a ficarem abaixo dos flutuantes */
+    clear: both;
+}
+
+#principal {
+    border: 1px solid red;
+    /* Adiciona uma borda de 1 pixel de espessura, sólida e vermelha ao redor do contêiner principal */
+
+    background: green;
+    /* Define a cor de fundo do contêiner principal como verde */
+}
