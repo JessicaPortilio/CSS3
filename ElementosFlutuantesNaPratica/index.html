@@ -1,0 +1,86 @@
+<!-- Declaração do tipo de documento HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Define a codificação de caracteres para suportar caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Define a escala inicial para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página, exibido na aba do navegador -->
+    <title>Elementos Flutuantes Na Prática</title>
+    <!-- Importa um arquivo CSS externo para estilizar a página -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Div principal que agrupa todo o conteúdo da página -->
+    <div id="principal">
+        <div>
+            <!-- Bloco de notícia 1 -->
+            <div class="noticia">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                    Texto fictício representando o conteúdo da notícia.
+                </p>
+                <a href="">Veja mais</a> <!-- Link para ler mais sobre a notícia -->
+            </div>
+            <!-- Bloco de notícia 2 -->
+            <div class="noticia">
+                <h2>Lorem ipsum dolor sit amet2</h2>
+                <p>
+                    Texto fictício representando o conteúdo da notícia.
+                </p>
+                <a href="">Veja mais</a>
+            </div>
+            <!-- Bloco de notícia 3 -->
+            <div class="noticia">
+                <h2>Lorem ipsum dolor sit amet3</h2>
+                <p>
+                    Texto fictício representando o conteúdo da notícia.
+                </p>
+                <a href="">Veja mais</a>
+            </div>
+            <!-- Bloco de notícia 4 -->
+            <div class="noticia">
+                <h2>Lorem ipsum dolor sit amet4</h2>
+                <p>
+                    Texto fictício representando o conteúdo da notícia.
+                </p>
+                <a href="">Veja mais</a>
+            </div>
+        </div>
+        
+        <!-- Classe usada para limpar a flutuação dos elementos anteriores -->
+        <div class="clear"></div>
+        
+        <div>
+            <!-- Galeria de imagens -->
+            <div class="imagem-galeria">
+                <img src="./imagens/imagem1.png" alt="">
+                <p>Descrição da imagem 1.</p>
+            </div>
+            <div class="imagem-galeria">
+                <img src="./imagens/imagem2.png" alt="">
+                <p>Descrição da imagem 2.</p>
+            </div>
+            <div class="imagem-galeria">
+                <img src="./imagens/imagem3.png" alt="">
+                <p>Descrição da imagem 3.</p>
+            </div>
+            <div class="imagem-galeria">
+                <img src="./imagens/imagem4.png" alt="">
+                <p>Descrição da imagem 4.</p>
+            </div>
+            <div class="imagem-galeria">
+                <img src="./imagens/imagem5.png" alt="">
+                <p>Descrição da imagem 5.</p>
+            </div>
+        </div>
+        
+        <!-- Limpa qualquer flutuação remanescente -->
+        <div class="clear"></div>
+    </div>
+</body>
+
+</html>

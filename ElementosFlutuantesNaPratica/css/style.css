@@ -1,0 +1,33 @@
+/* Define a cor de fundo geral da página */
+body {
+    background: #f4f4f4;
+}
+
+/* Estiliza a div principal que contém todo o conteúdo */
+#principal {
+    /* border: 1px solid red; */
+    width: 920px; /* Define a largura máxima do conteúdo */
+}
+
+/* Estiliza os blocos de notícia */
+.noticia {
+    background: #e5e5e5; /* Define uma cor de fundo para destacar as notícias */
+    padding: 5px; /* Adiciona um espaçamento interno */
+    width: 200px; /* Define a largura de cada bloco de notícia */
+    margin: 7px; /* Adiciona espaço entre os blocos */
+    float: left; /* Faz com que os blocos fiquem alinhados lado a lado */
+}
+
+/* Classe usada para limpar elementos flutuantes e evitar problemas de layout */
+.clear {
+    clear: both;
+}
+
+/* Estiliza os blocos de imagem da galeria */
+.imagem-galeria {
+    background: white; /* Define uma cor de fundo branca */
+    width: 265px; /* Define a largura de cada bloco de imagem */
+    padding: 5px; /* Adiciona um espaçamento interno */
+    float: left; /* Permite que as imagens fiquem lado a lado */
+    margin: 15px; /* Adiciona espaço entre os blocos de imagem */
+}
