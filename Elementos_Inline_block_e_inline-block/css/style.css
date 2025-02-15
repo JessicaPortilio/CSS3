@@ -1,0 +1,9 @@
+/* → Define um estilo para todos os elementos que possuem a classe borda. */
+.borda {
+    border: 1px solid red;  /*Adiciona uma borda vermelha de 1 pixel ao redor do elemento.*/
+    
+    /* display: inline; */  /* Faz com que o elemento se comporte como inline, ou seja, ocupe apenas o espaço necessário e fique na mesma linha que outros elementos.*/
+    /* display: block; */   /*Faz com que o elemento se comporte como block, ocupando toda a largura disponível e forçando uma nova linha.*/
+    /* display: inline-block; */   /*Mistura os dois comportamentos: permite que os elementos fiquem na mesma linha, mas também possibilita ajustes de largura e altura.*/
+}
+
