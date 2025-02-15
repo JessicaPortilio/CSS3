@@ -1,0 +1,57 @@
+/* Aplica estilos ao fundo de toda a página. */
+body {
+    /*  Define a cor de fundo como azul (#007fc7). */
+    background: #007fc7; 
+}
+
+/* Aplica estilos ao div com id="container". */
+#container {
+    /* Define o fundo da div como branco (#FFF). */
+    background: #FFF;
+    /* Define a largura do container como 800 pixels */
+    width: 800px;
+    /* Define um espaçamento de 10 pixels no topo e embaixo, e auto nas laterais, o que centraliza a div na tela. */
+    margin: 10px auto;
+    /* Adiciona um espaçamento interno de 10 pixels dentro da div */
+    padding: 10px;
+}
+
+/* Estiliza o título <h1> */
+h1 {
+    /* O static é o posicionamento padrão de todos os elementos, mas está comentado, então não tem efeito. */
+    /* position: static; */
+}
+
+/* Estiliza todos os parágrafos (<p>). */
+p {
+    /* Comentado, então os parágrafos mantêm o posicionamento padrão (static). */
+    /* position: static; */
+    /* Define a largura de todos os parágrafos como 300 pixels. */
+    width: 300px;
+}
+
+/* Estiliza qualquer elemento com a classe relative. */
+.relative {
+    /* Adiciona uma borda vermelha de 1 pixel ao redor do parágrafo com essa classe. */
+    border: 1px solid red;
+    /* Define que o parágrafo será posicionado em relação à sua posição original. */
+    position: relative;
+    /* top, right, bottom, left: Essas propriedades permitem mover o elemento, mas estão comentadas. Se ativadas: */
+    /* Empurraria o parágrafo 20 pixels para baixo. */
+    /* top: 20px; */
+    /* Deslocaria o parágrafo 80 pixels para a direita. */
+    /* left: 80px; */
+    /* Deslocaria o parágrafo 20 pixels para a esquerda. */
+    /* right: 20px; */
+    /* Empurraria o parágrafo 20 pixels para cima. */
+    /* bottom: 20px; */
+}
+
+/* 
+Resumo sobre os tipos de posicionamento
+    static (padrão): O elemento fica na posição normal do fluxo da página.
+    relative: Permite deslocar o elemento em relação à sua posição original.
+    absolute: Remove o elemento do fluxo normal da página e o posiciona em relação ao primeiro elemento pai com position: relative ou, se não houver, em relação ao <html>.
+    fixed: O elemento fica fixo na tela, não se move ao rolar a página.
+
+*/
