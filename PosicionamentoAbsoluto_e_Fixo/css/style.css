@@ -33,23 +33,36 @@ p {
     width: 300px;
 }
 
-.fixed {
+/* Define um estilo específico para qualquer elemento HTML que tenha a classe fixed. */
+.fixed { 
     /* Adiciona uma borda vermelha de 1 pixel ao redor do parágrafo com essa classe. */
     border: 1px solid red;
+    /* Define a cor de fundo do elemento. A cor #f2f2f2 é um tom de cinza claro. */
     background: #f2f2f2;
+    /* Define que o elemento terá um posicionamento fixo. Isso significa que ele não se moverá ao rolar a página. le sempre permanecerá fixado no mesmo lugar da tela.*/
     position:fixed;
+    /* Posiciona o elemento na parte inferior da tela.  0px significa que ele encostará no final da página.*/
     bottom: 0px;
+    /* Posiciona o elemento no canto direito da tela.  0px significa que ele ficará grudado na borda direita.*/
     right: 0px;
+    /* Remove qualquer espaço extra ao redor do elemento. Isso garante que ele fique bem encostado no canto inferior direito. */
     margin: 0px;
     
 }
 
+/* Define um estilo específico para qualquer elemento HTML que tenha a classe absolute. */
 .absolute {
     /* Adiciona uma borda vermelha de 1 pixel ao redor do parágrafo com essa classe. */
     border: 1px solid red;
+    /* Define a cor de fundo do elemento. A cor #f2f2f2 é um tom de cinza claro. */
     background: #f2f2f2;
+    /* Define que o elemento terá um posicionamento absoluto. 
+    Isso significa que ele será removido do fluxo normal da página e posicionado em relação ao primeiro elemento pai que tenha position: relative.
+    Se nenhum elemento pai tiver position: relative, ele será posicionado em relação à página inteira.*/
     position: absolute;
+    /* Move o elemento 80 pixels para baixo do topo da área em que está posicionado. */
     top: 80px;
+    /* Move o elemento 80 pixels para a esquerda a partir da borda direita da área em que está posicionado. */
     right: 80px;
 }
 
@@ -78,4 +91,7 @@ Resumo sobre os tipos de posicionamento
     absolute: Remove o elemento do fluxo normal da página e o posiciona em relação ao primeiro elemento pai com position: relative ou, se não houver, em relação ao <html>.
     fixed: O elemento fica fixo na tela, não se move ao rolar a página.
 
+Diferença entre fixed e absolute
+    fixed → Fica fixo na tela, não se move ao rolar a página.
+    absolute → É posicionado em relação a um elemento pai com position: relative ou, se não houver, em relação à página inteira. Se rolar a página, ele se move junto.
 */
