@@ -1,0 +1,41 @@
+/* Aplica estilos a todos os links (<a>). */
+a {
+    /* Adiciona espaço interno ao link:
+    5px na parte superior e inferior.
+    10px nas laterais. */
+    padding: 5px 10px;
+    /* Remove o sublinhado padrão dos links.  */
+    text-decoration: none;
+}
+
+/* Estilos para diferentes estados dos links */
+
+/* Links não Visitados */
+/* Define o estilo dos links que ainda não foram clicados. */
+a:link {
+    /* Define a cor dos links como um tom de verde (#b9c941). */
+    color: #b9c941;
+}
+
+/* Links Visitados */
+/* Define o estilo dos links já visitados pelo usuário. */
+a:visited {
+    /* Mantém a mesma cor verde após a visita. */
+    color: #b9c941;
+}
+
+/* Links Hover, passa o cursor sobre o link */
+/* Define o estilo do link quando o cursor do mouse estiver sobre ele. */
+a:hover {
+    /* Muda a cor do texto do link para branco (#FFF). */
+    color: #FFF;
+    /* Muda o fundo do link para um tom de verde escuro (#6d790f). */
+    background: #6d790f;
+}
+
+/* Links Ativos, quando clicado */
+/* Define o estilo do link no momento em que está sendo clicado. */
+a:active {
+    /* Muda a cor do texto do link para um verde claro (#e4f371). */
+    color: #e4f371;
+}
