@@ -1,0 +1,41 @@
+.conteudo1 { /* Estiliza a primeira caixa de conteúdo */
+    border: 1px solid red; /* Adiciona uma borda vermelha com 1 pixel de espessura */
+    background: orange; /* Define o fundo da caixa como laranja */
+    width: 200px; /* Define a largura da caixa como 200 pixels */
+    height: 200px; /* Define a altura da caixa como 200 pixels */
+    position: absolute; /* Permite posicionar a caixa de forma absoluta na página */
+    z-index: 2; /* Define a prioridade da camada. Quanto maior o número, mais "acima" estará */
+}
+
+.conteudo2 { /* Estiliza a segunda caixa de conteúdo */
+    border: 1px solid red; /* Adiciona uma borda vermelha com 1 pixel de espessura */
+    background: green; /* Define o fundo da caixa como verde */
+    width: 200px; /* Define a largura da caixa como 200 pixels */
+    height: 200px; /* Define a altura da caixa como 200 pixels */
+    position: absolute; /* Permite posicionar a caixa de forma absoluta na página */
+    top: 80px; /* Move a caixa 80 pixels para baixo a partir do topo da página */
+    left: 80px; /* Move a caixa 80 pixels para a direita a partir da borda esquerda */
+    z-index: 1; /* Define a prioridade da camada. Como o valor é menor que 2, esta caixa ficará abaixo da primeira */
+}
+
+.conteudo3 { /* Estiliza a terceira caixa de conteúdo */
+    border: 1px solid red; /* Adiciona uma borda vermelha com 1 pixel de espessura */
+    background: blue; /* Define o fundo da caixa como azul */
+    width: 200px; /* Define a largura da caixa como 200 pixels */
+    height: 200px; /* Define a altura da caixa como 200 pixels */
+    position: absolute; /* Permite posicionar a caixa de forma absoluta na página */
+    top: 160px; /* Move a caixa 160 pixels para baixo a partir do topo da página */
+    left: 160px; /* Move a caixa 160 pixels para a direita a partir da borda esquerda */
+    z-index: 0; /* Define a prioridade da camada. Como é o menor valor, esta caixa ficará abaixo das outras duas */
+}
+
+
+
+/* 
+Resumo sobre os tipos de posicionamento
+    static (padrão): O elemento fica na posição normal do fluxo da página.
+    relative: Permite deslocar o elemento em relação à sua posição original.
+    absolute: Remove o elemento do fluxo normal da página e o posiciona em relação ao primeiro elemento pai com position: relative ou, se não houver, em relação ao <html>.
+    fixed: O elemento fica fixo na tela, não se move ao rolar a página.
+
+*/
